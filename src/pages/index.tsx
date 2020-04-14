@@ -1,10 +1,11 @@
 import * as React from 'react';
+import Redirect from 'umi/redirect';
 
 
 const HomePage = () => {
   return (
     <div>
-      <h1>This is HomePage.</h1>
+      <Redirect to="/example" />
     </div>
   );
 };
